@@ -1,0 +1,5 @@
+a, b, c = input().split('.')
+a = int(a)
+b = int(b)
+c = int(c)
+print("%02d-%02d-%04d"%(c, b, a))
