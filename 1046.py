@@ -1,0 +1,5 @@
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+print("%d\n%.1f" %((a + b + c), ((a + b + c) / 3)))
